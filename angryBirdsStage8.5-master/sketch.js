@@ -98,4 +98,7 @@ function keyPressed(){
        Matter.Body.setPosition(bird.body,{x:200,y:50});
     }
 }
-
+function mousePressed(){
+    slingshot.attach(bird.body);
+       Matter.Body.setPosition(bird.body,{x:200,y:50});
+}
